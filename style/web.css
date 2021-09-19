@@ -1,0 +1,46 @@
+body{
+    background-color: azure;
+    padding: 10px;
+}
+
+h1{
+    width: 620px;
+    border: 2px solid rgba(104, 191, 202, 0.719);
+    padding: 10px;
+    margin: 4px;
+    text-align: center;
+    color: darkorchid;
+}
+
+h3{
+    color:tomato;
+}
+
+div{
+    color: whitesmoke;
+    font-size: 25px;
+    font-family: sans-serif;
+    background-color: rgb(119, 174, 190);
+    width: 620px;
+    border: 2px solid rgb(21, 130, 145);
+    padding: 10px;
+    margin: 1px;
+}
+
+table{
+    border: 2px solid rgba(104, 86, 168, 0.719);
+    width: 644px;
+}
+
+tr{
+    border: 1px solid rgb(42, 53, 54);
+    text-align: center;
+    padding: 8px;
+}
+
+td:nth-child(even){
+    background-color: rgba(71, 99, 255, 0.6);
+}
+td:nth-child(odd){
+    background-color: rgba(71, 99, 255, 0.212);
+}
